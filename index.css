@@ -1,5 +1,68 @@
 html, body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.container {
+    border:solid 2px black;
+    width: 375px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: blanchedalmond;
+    
+}
+div{
+    border:solid 2px black;
+    
+}
+
+header {
+    height:67px;
+    width:100%;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #C6C6C6;
+}
+
+header div {
+    border: 0;
+}
+.logo {
+    width:127px;
+    height: 33.02px;
+    background-image: url("./images/oldagram-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+
+}
+.profile-image {
+    width: 34px;
+    height: 34px;
+    background-image: url("images/user-avatar.png");
+    background-size: contain;
+    border-radius: 50%;
+}
+
+
+
+section{
+    height:67px;
+    width:100%;
+    border: solid 2px black;   
 }
 
